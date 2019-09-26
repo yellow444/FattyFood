@@ -1,0 +1,53 @@
+				<div class="h_item" id="h_banner">
+					<h3>Banner</h3>
+					<p class="last">You can place a banner instead of the title (but the title of the gallery will still be used in the title bar of the browser, as well as replacement of the banner should it not be shown ). For this you need to place an image of format <acronym title="Joint Picture Expert's Group">JPEG</acronym>, <acronym title="Graphics Interchange Format">GIF</acronym> or <acronym title="Portable Network Graphics">PNG</acronym>,and with the extension. jpg,. gif or. png in the folder "images / banners". The file name of the images can only contain dashes (-), underscores (_) and alphanumeric characters (az and 0-9).</p>
+				</div>
+				<div class="h_item" id="h_url_rewriting">
+					<h3>URL rewriting</h3>
+					<p class="last">The <acronym title="Uniform Resource Locator">URL</acronym> rewriting allows for shorter URL by suppressing the "?q=" off the URL. That is to say that instead of having URLs of this type&nbsp;:</p>
+<pre>
+http://www.igalerie.org/demo/?q=album/3-nature
+</pre>
+					<p>The URL rewriting will give you the following&nbsp;:</p>
+<pre>
+http://www.igalerie.org/demo/album/3-nature
+</pre>
+					<p>For URL rewriting to work, and before enabling the feature, you must add, to the .htaccess file located in the directory "iGallerie", the following lines (if they are not already present)&nbsp;:</p>
+<pre>
+&lt;IfModule mod_rewrite.c&gt;
+	RewriteEngine on
+	RewriteBase <?php echo CONF_GALLERY_PATH; ?>/
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule (.*) index.php?q=$1 [QSA,L]
+&lt;/IfModule&gt;
+</pre>
+				</div>
+				<div class="h_item" id="h_integrated">
+					<h3>Integration</h3>
+					<p class="last">Check this box if iGallery is intended to be integrated into a file on your site.</p>
+				</div>
+				<div class="h_item" id="h_langs">
+					<h3>Languages</h3>
+					<h4>Uninstall languages</h4>
+					<p>Note that it is impossible to uninstall the default language.</p>
+					<p class="last icon icon_exclamation">Warning ! If you uninstall a language all your localized texts in that language will be deleted permanently !</p>
+				</div>
+				<div class="h_item" id="h_dates">
+					<h3>Dates</h3>
+					<p class="last">For the custom date format, you must enter a date format compatible with the function <acronym title="PHP: Hypertext Preprocessor">PHP</acronym> <a class="ex" href="http://fr.php.net/manual/fr/function.strftime.php">strftime()</a>.</p>
+				</div>
+				<div class="h_item" id="h_gd">
+					<h3>GD parameters</h3>
+					<h4>Transparency management</h4>
+					<p class="last">You must select this option if you have images of format <acronym title="Graphics Interchange Format">GIF</acronym> or <acronym title="Portable Network Graphics">PNG</acronym> and want to maintain the transparency of your images for thumbnails and intermediate size pictures.</p>
+				</div>
+				<div class="h_item" id="h_add_images">
+					<h3>Adding Images</h3>
+					<h4>Add all files to the report</h4>
+					<p>If this option is enabled, the scan report by <acronym title="File Transfer Protocol"> FTP </ acronym> will mention all files that have been rejected, not just images.</p>
+					<h4>Updating images</h4>
+					<p>If this option is enabled, the scan via FTP will update the edited images. If for example you replace an image by changing its size, it will be updated in the database. Note that this option slightly increases the duration of scan, due to the fact that it is necessary to check each image inside the album being updated.</p>
+					<h4>Choose a new thumbnail for category updates</h4>
+					<p class="last">If this option is enabled, a new thumbnail will be chosen for albums and categories updated. The image selected as the thumbnail is not random, it is always the last image added during scanning. This option affects as much the scan by FTP than the adding of images by <acronym title="HyperText Transfer Protocol">HTTP</acronym> (ie sending of pictures through the browser).</p>
+				</div>

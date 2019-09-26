@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<error md5="e3da5d5e4f8b70d23131c68fb8584677">
+	<version>2.4.11</version>
+	<type>PHP_WARNING</type>
+	<date>2019-09-14 21:22:28</date>
+	<q>ftp</q>
+	<file>admin%2Findex.php</file>
+	<line>23211</line>
+	<message>count%28%29%3A+Parameter+must+be+an+array+or+an+object+that+implements+Countable</message>
+	<details>a%3A1%3A%7Bs%3A4%3A%22item%22%3Bs%3A14%3A%22report_details%22%3B%7D</details>
+</error>

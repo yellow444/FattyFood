@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<error md5="51a424142bddc81bf7d9f515a74a6d6c">
+	<version>2.4.11</version>
+	<type>PHP_WARNING</type>
+	<date>2019-09-02 21:30:20</date>
+	<q></q>
+	<file>includes%2Fclasses%2Fdb.class.php</file>
+	<line>133</line>
+	<message>PDO%3A%3A__construct%28%29%3A+Error+while+reading+greeting+packet.+PID%3D36124</message>
+	<details>a%3A0%3A%7B%7D</details>
+</error>

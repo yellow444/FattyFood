@@ -1,0 +1,11 @@
+				<div class="h_item" id="h_descriptions">
+					<h3>Description models</h3>
+					<p>Description models let you apply common elements (text or HTML) for all category descriptions and images. If you want to display, in addition to or instead of the description of each class or image, the same text or even HTML, this is possible thanks to the description models. The interest of the description models is that you have at your disposal several "variables" containing category and image information as well as conditionals that test the presence of some of this information.</p>
+					<p>Available variables are : <span class="code">{DESCRIPTION}</span>, <span class="code">{ID}</span>, <span class="code">{PLACE}</span>, <span class="code">{TITLE}</span>, <span class="code">{URL}</span> for categories and images as well as <span class="code">{FILENAME}</span>, <span class="code">{HEIGHT}</span> and <span class="code">{WIDTH}</span> for images only. Conditional structures available are <span class="code">{IF(DESCRIPTION)}...{ENDIF(DESCRIPTION)}</span> et <span class="code">{IF(PLACE)}...{ENDIF(PLACE)}</span>.</p>
+					<p>Here is an example of a description model for categories&nbsp;:</p>
+<pre class="last">
+{IF(DESCRIPTION)}&lt;a href="javascript:;" rel="category_description_{ID}" class="show_parts js_link"&gt;Lire la description&lt;/a&gt;
+&lt;span id="category_description_{ID}" style="display:none"&gt;
+{DESCRIPTION}&lt;/span&gt;{ENDIF(DESCRIPTION)}
+</pre>
+				</div>

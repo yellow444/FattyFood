@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<error md5="084191971181b7bda02ad82d5628fe63">
+	<version>2.4.11</version>
+	<type>PHP_WARNING</type>
+	<date>2019-08-17 10:24:38</date>
+	<q>step%2F2</q>
+	<file>includes%2Fclasses%2Fdb.class.php</file>
+	<line>245</line>
+	<message>PDO%3A%3Aexec%28%29%3A+MySQL+server+has+gone+away</message>
+	<details>a%3A3%3A%7Bs%3A3%3A%22sql%22%3Bs%3A362%3A%22ALTER+TABLE+igal2_groups_perms%0A%09ADD+CONSTRAINT+igal2_fk1_groups_perms%0A%09%09FOREIGN+KEY+%28group_id%29+REFERENCES+igal2_groups+%28group_id%29%0A%09%09ON+DELETE+CASCADE%2C%0A%09ADD+CONSTRAINT+igal2_fk2_groups_perms%0A%09%09FOREIGN+KEY+%28cat_id%29+REFERENCES+igal2_categories+%28cat_id%29%0A%09%09ON+DELETE+CASCADE%3B%0A%09%09%0AALTER+TABLE+igal2_guestbook%0A%09ADD+FOREIGN+KEY+%28user_id%29+REFERENCES+igal2_users+%28user_id%29%3B%22%3Bs%3A11%3A%22transaction%22%3Bb%3A0%3Bs%3A1%3A%22o%22%3Bi%3A0%3B%7D</details>
+</error>

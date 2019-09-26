@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<error md5="1b8651c527e39aa7d421e467fd3ddb26">
+	<version>2.4.11</version>
+	<type>PHP_WARNING</type>
+	<date>2019-09-14 21:22:28</date>
+	<q>ftp</q>
+	<file>admin%2Findex.php</file>
+	<line>23428</line>
+	<message>count%28%29%3A+Parameter+must+be+an+array+or+an+object+that+implements+Countable</message>
+	<details>a%3A3%3A%7Bs%3A4%3A%22item%22%3Bs%3A10%3A%22report_sum%22%3Bs%3A10%3A%22report_sum%22%3Bs%3A125%3A%22%3Cp+class%3D%22report_msg+report_info%22%3ENo+new+album+or+image+detected.%3C%2Fp%3E%0A%3Cp+class%3D%22report_msg+report_info%22%3ENo+album+updated%3C%2Fp%3E%0A%22%3Bs%3A7%3A%22message%22%3Bs%3A16%3A%22No+album+updated%22%3B%7D</details>
+</error>

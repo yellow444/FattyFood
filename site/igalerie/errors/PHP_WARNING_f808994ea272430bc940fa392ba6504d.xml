@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<error md5="f808994ea272430bc940fa392ba6504d">
+	<version>2.4.11</version>
+	<type>PHP_WARNING</type>
+	<date>2019-08-22 11:48:30</date>
+	<q>dashboard</q>
+	<file>admin%2Ftemplate%2Fdefault%2Fdashboard.tpl.php</file>
+	<line>12</line>
+	<message>include_once%28%2Fstorage%2Fssd2%2F729%2F10337729%2Fpublic_html%2Figalerie%2Flocale%2Fen_GB%2Fhelp%2Fstart.html%29%3A+failed+to+open+stream%3A+No+such+file+or+directory</message>
+	<details>a%3A2%3A%7Bs%3A3%3A%22inc%22%3Bs%3A88%3A%22%2Fstorage%2Fssd2%2F729%2F10337729%2Fpublic_html%2Figalerie%2Fadmin%2Ftemplate%2Fdefault%2Fdashboard.tpl.php%22%3Bs%3A3%3A%22tpl%22%3BN%3B%7D</details>
+</error>

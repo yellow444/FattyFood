@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<error md5="3e6cb4bf3917c7124514869e8187c64d">
+	<version>2.4.11</version>
+	<type>PHP_WARNING</type>
+	<date>2019-08-22 11:48:30</date>
+	<q>dashboard</q>
+	<file>admin%2Ftemplate%2Fdefault%2Fdashboard.tpl.php</file>
+	<line>12</line>
+	<message>include_once%28%29%3A+Failed+opening+%27%2Fstorage%2Fssd2%2F729%2F10337729%2Fpublic_html%2Figalerie%2Flocale%2Fen_GB%2Fhelp%2Fstart.html%27+for+inclusion+%28include_path%3D%27.%3A%2Fusr%2Fshare%2Fpear%3A%2Fusr%2Fshare%2Fphp%27%29</message>
+	<details>a%3A2%3A%7Bs%3A3%3A%22inc%22%3Bs%3A88%3A%22%2Fstorage%2Fssd2%2F729%2F10337729%2Fpublic_html%2Figalerie%2Fadmin%2Ftemplate%2Fdefault%2Fdashboard.tpl.php%22%3Bs%3A3%3A%22tpl%22%3BN%3B%7D</details>
+</error>

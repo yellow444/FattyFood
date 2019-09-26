@@ -1,0 +1,25 @@
+				<div class="h_item" id="h_moderate">
+					<h3>Comment moderation</h3>
+					<p>By checking this option, the comments will not be visible on the gallery as long as you have not validated them. Moderated comments are disabled (status "pending") and you must activate them in the section "Comments / Images".</p>
+					<p class="last">Note that this option is ignored when the feature "Members area" is enabled. In this case, to moderate comments you must select the "On hold" option for the group permission "Add comments".</p>
+				</div>
+				<div class="h_item" id="h_smilies">
+					<h3>Icon set for smilies</h3>
+					<p>To add a new icon set, you must create in the directory "images / smilies" a directory whose name does not contain spaces, accented or special characters, then add your icon files and then create a file "icons.php "used to make the correspondence between the code for each smiley and the file name of the icon, using the following example :</p>
+<pre>
+&lt;?php
+$smilies[':???:'] = 'confuse.png';
+$smilies[':cool:'] = 'cool.png';
+$smilies[':cry:'] = 'cry.png';
+$smilies[':eek:'] = 'eek.png';
+?&gt;</pre>
+				<p class="last">You are free to add the codes and the number of smilies you want.</p>
+				</div>
+				<div class="h_item" id="h_antiflood">
+					<h3>Anti-flood</h3>
+					<p class="last">The anti-flood adjusts, after sending a comment, how long a user can not post another comment.</p>
+				</div>
+				<div class="h_item" id="h_maxurls">
+					<h3>Maximum number of URLs</h3>
+					<p class="last">By totally banning the presence of URL (0) or greatly limiting it (1), you will block a considerable amount of spam. Indeed, most spam messages contain one or more URLs to other sites.</p>
+				</div>

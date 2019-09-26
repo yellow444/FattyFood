@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<error md5="02676d43e85eb7547fdb85f5ee9a10eb">
+	<version>2.4.11</version>
+	<type>DB_ERROR</type>
+	<date>2019-09-02 21:22:27</date>
+	<q></q>
+	<file>includes%2Fclasses%2Fdb.class.php</file>
+	<line>326</line>
+	<message>SQLSTATE%5BHY000%5D%3A+General+error%3A+9001+Max+connect+timeout+reached+while+reaching+hostgroup+1076+after+10000ms</message>
+	<details>a%3A3%3A%7Bs%3A4%3A%22code%22%3Bs%3A5%3A%22HY000%22%3Bs%3A5%3A%22trace%22%3Ba%3A5%3A%7Bi%3A0%3Bs%3A199%3A%22includes%2Fclasses%2Fdb.class.php+line+326%3A%0APDO-%3Equery%28%26%23039%3BSELECT+%2A%0A%09%09%09%09++FROM+igal2_config%0A%09%09%09%09+WHERE+conf_name+NOT+LIKE+%26quot%3Badmin%25%26quot%3B%0A%09%09%09%09+++AND+conf_name+NOT+LIKE+%26quot%3Bblacklist%25%26quot%3B%26%23039%3B%29%0A%22%3Bi%3A1%3Bs%3A326%3A%22includes%2Fclasses%2Futils.class.php+line+513%3A%0Adb-%3Equery%28%26%23039%3BSELECT+%2A%0A%09%09%09%09++FROM+igal2_config%0A%09%09%09%09+WHERE+conf_name+NOT+LIKE+%26quot%3Badmin%25%26quot%3B%0A%09%09%09%09+++AND+conf_name+NOT+LIKE+%26quot%3Bblacklist%25%26quot%3B%26%23039%3B%2C+array+%28%0A++%26%23039%3Bcolumn%26%23039%3B+%3D%26gt%3B+%0A++array+%28%0A++++0+%3D%26gt%3B+%26%23039%3Bconf_name%26%23039%3B%2C%0A++++1+%3D%26gt%3B+%26%23039%3Bconf_value%26%23039%3B%2C%0A++%29%2C%0A%29%29%0A%22%3Bi%3A2%3Bs%3A40%3A%22index.php+line+1978%3A%0Autils%3A%3AgetConfig%28%29%0A%22%3Bi%3A3%3Bs%3A36%3A%22index.php+line+276%3A%0Agallery%3A%3Ainit%28%29%0A%22%3Bi%3A4%3Bs%3A136%3A%22%2Fstorage%2Fssd2%2F729%2F10337729%2Fpublic_html%2Findex.php+line+7%3A%0Ainclude%28%26%23039%3B%2Fstorage%2Fssd2%2F729%2F10337729%2Fpublic_html%2Figalerie%2Findex.php%26%23039%3B%29%0A%22%3B%7Ds%3A10%3A%22additional%22%3Ba%3A2%3A%7Bs%3A3%3A%22sql%22%3Bs%3A134%3A%22SELECT+%2A%0A%09%09%09%09++FROM+igal2_config%0A%09%09%09%09+WHERE+conf_name+NOT+LIKE+%26quot%3Badmin%25%26quot%3B%0A%09%09%09%09+++AND+conf_name+NOT+LIKE+%26quot%3Bblacklist%25%26quot%3B%22%3Bs%3A6%3A%22params%22%3BN%3B%7D%7D</details>
+</error>
